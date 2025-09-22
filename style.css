@@ -21,7 +21,7 @@ body {
 }
 .navbar {
   opacity: 0.6;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600;
   padding: 30px;
   display: flex;
@@ -32,25 +32,28 @@ body {
   margin: 10px;
 }
 .main {
-  height: 90vh;
+  /* height: 90vh; */
   /* background-color: #8b5454; */
+  margin-bottom: 20px;
 }
 
 /* main section code */
 .name {
   font-size: 11vw;
   opacity: 0.8;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .main {
-  margin-top: 4vw;
+  margin-top: 2vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .mainContent {
+  height: 52vh;
   width: 100%;
   /* background-color: red; */
+  margin-bottom: 30px;
   display: flex;
 }
 .contactText,
@@ -59,6 +62,11 @@ body {
   width: 40%;
 }
 .image {
+  background-image: url("./assets/myimage.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  background-position: center;
+  object-fit: contain;
   width: 350px;
 }
 .image img {
@@ -66,6 +74,7 @@ body {
 }
 .contactText {
   /* margin-right: ; */
+  /* height: ; */
   margin-left: 30px;
   display: flex;
   flex-direction: column;
@@ -75,7 +84,7 @@ body {
   display: block;
   font-weight: 600;
   opacity: 0.6;
-  font-size: 2vw;
+  font-size: 1.6vw;
   line-height: clamp(1.5vw, 2vw, 3vw);
   padding-right: clamp(20px, 3vw, 3vw);
   /* margin-top: 30px;
@@ -182,7 +191,7 @@ body {
   width: 60%;
   /* margin: 50px 40% 0px 30px; */
   /* margin-right: clamp(10px,3vw,5vw); */
-  line-height: 25px;
+  line-height: clamp(25px, 3vw, 3vw);
 }
 
 .options {
@@ -396,6 +405,7 @@ body {
 .descriptionContaainer .aboutleft {
   width: 10rem;
   font-size: 0.8rem;
+  line-height: clamp(1vw, 1.8vw, 2vw);
 }
 .descriptionContaainer .aboutDescription {
   width: 100%;

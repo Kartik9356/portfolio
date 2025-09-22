@@ -6,7 +6,7 @@
   .skill .DDC {
     width: 100%;
   }
-  .skill h2{
+  .skill h2 {
     font-size: 4rem;
   }
   .skills > h3 {
@@ -14,25 +14,23 @@
     font-size: 5rem;
     margin-bottom: 30px;
   }
-  .skills{
+  .skills {
     width: 90%;
     margin-bottom: 20px;
   }
-.descriptionContaainer {
-  flex-direction: column;
-  line-height: 3rem;
-}
-.descriptionContaainer .aboutDescription {
+  .descriptionContaainer {
+    flex-direction: column;
+    line-height: 3rem;
+  }
+  .descriptionContaainer .aboutDescription {
     line-height: normal;
-}
+  }
 
-/* form */
-.form{
+  /* form */
+  .form {
     padding-top: 60px;
-}
-.form form {
+  }
+  .form form {
     width: 80%;
-}
-
-
+  }
 }
