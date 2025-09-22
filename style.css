@@ -4,7 +4,7 @@
   font-family: sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
     Noto Color Emoji;
 
-  cursor: url("/assets/Wcursor.png"), pointer;
+  cursor: url("/assets/Wcurser.png"), pointer;
 }
 .flex {
   align-items: center;
@@ -21,7 +21,7 @@ body {
 }
 .navbar {
   opacity: 0.6;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   padding: 30px;
   display: flex;
@@ -40,8 +40,10 @@ body {
 .name {
   font-size: 11vw;
   opacity: 0.8;
+  margin-bottom: 40px;
 }
 .main {
+  margin-top: 4vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,7 +59,10 @@ body {
   width: 40%;
 }
 .image {
-  width: 18%;
+  width: 350px;
+}
+.image img {
+  height: 100%;
 }
 .contactText {
   /* margin-right: ; */
@@ -70,9 +75,9 @@ body {
   display: block;
   font-weight: 600;
   opacity: 0.6;
-  font-size: 24px;
-  line-height: 33px;
-  padding-right: 122px;
+  font-size: 2vw;
+  line-height: clamp(1.5vw, 2vw, 3vw);
+  padding-right: clamp(20px, 3vw, 3vw);
   /* margin-top: 30px;
   position: absolute; */
 }
@@ -119,7 +124,7 @@ body {
   font-size: 0.9rem;
 }
 .date h2 {
-  font-size: 6rem;
+  font-size: 6vw;
 }
 
 /* what i do */
@@ -134,12 +139,13 @@ body {
 .whatIDo .services h2 {
   padding-top: 60px;
   margin-left: 30px;
-  font-size: 8rem;
+  font-size: clamp(4.5rem, 8vw, 8vw);
 }
 .services p {
   margin: 5% 13% 10% 50%;
-  line-height: 40px;
-  font-size: 1.6rem;
+  margin-right: clamp(10px, 10%, 10%);
+  line-height: clamp(25px, 3vw, 3vw);
+  font-size: clamp(1rem, 1.6vw, 1.6rem);
 }
 
 /* fullstack */
@@ -159,28 +165,31 @@ body {
   margin: 0 30px;
   display: flex;
   margin-top: 10px;
-  width: 45%;
+  width: 35%;
 }
 
 .fullStack .right {
   margin-right: 2.5%;
-  width: 55%;
+  width: 65%;
 }
 .fullStack h2 {
-  font-size: 3rem;
+  line-height: 3.8rem;
+  font-size: clamp(2.5rem, 3vw, 3vw);
 }
 .fullStack .right > p {
-  font-size: 1.4rem;
+  font-size: clamp(1rem, 1.6vw, 1.6vw);
   margin-top: 30px;
-  margin: 50px 40% 0px 20px;
-  line-height: 30px;
+  width: 60%;
+  /* margin: 50px 40% 0px 30px; */
+  /* margin-right: clamp(10px,3vw,5vw); */
+  line-height: 25px;
 }
 
 .options {
-  margin-top: 50px;
+  margin-top: clamp(1vw, 2vw, 2vw);
 }
 .options div {
-  margin: 20px 0;
+  margin: clamp(1.4vw, 1vw, 1vw) 0;
 }
 .options span {
   font-size: 1.3rem;
@@ -189,7 +198,8 @@ body {
   margin: 0px 20px;
 }
 .options p {
-  font-size: 2.3rem;
+  /* font-size: 2.3rem; */
+  font-size: clamp(1.3vw, 2.5vw, 3.5vw);
   /* color: red; */
   font-weight: 700;
 }
@@ -219,7 +229,6 @@ body {
   top: 250px;
 }
 
-
 .placeholder {
   height: 50vh;
 }
@@ -227,7 +236,7 @@ body {
 /* selected works */
 .works {
   padding: 30px;
-  padding-top: 250px;
+  padding-top: clamp(5vw, 10vw, 10vw);
   color: #e5e7eb;
   background-color: black;
 }
@@ -238,12 +247,13 @@ body {
   flex-direction: column;
 }
 .selectedWork h2 {
-  font-size: 5rem;
+  font-size: clamp(3vw, 6vw, 10vw);
 }
 .selectedWork p {
-  font-size: 1.4rem;
-  line-height: 32px;
+  font-size: clamp(1vw, 2.3vw, 2.3vw);
+  line-height: clamp(2.5vw, 3.5vw, 4vw);
   margin: 60px 23% 0 50%;
+  margin-right: clamp(10px, 3vw, 3vw);
 }
 
 /* project */
@@ -254,6 +264,12 @@ body {
   width: 100%;
   /* background-color: red; */
   display: flex;
+}
+.projectBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .CountContainer {
   position: relative;
@@ -269,18 +285,31 @@ body {
   top: 10%;
 }
 .project {
-  margin-top: 50px;
   display: flex;
-  height: 115vh;
+  height: 100%;
+  width: 75vw;
   /* width: max-content; */
   /* flex-direction: ; */
+  margin-bottom: 40px;
 }
 .projectContainer {
-  height: 100%;
+  height: clamp(50vw, 60vw, 70vw);
   margin-left: 20%;
-  width: 65vw;
+  width: 85%;
   border-radius: 10px;
+  background-size: cover;
   background-image: url(https://w-hotels.marriott.com/wp-content/uploads/2025/08/Punta-Cana-hero-m.jpg);
+}
+
+.metadata {
+  margin: 20px 0 0 20%;
+}
+.metadata h4 {
+  margin-bottom: 5px;
+  font-size: 2vw;
+}
+.metadata span {
+  font-size: 1vw;
 }
 
 /* skill */
@@ -296,8 +325,9 @@ body {
   display: flex;
 }
 .DDC {
+  text-align: left;
   width: 40%;
-  font-size: 4vw;
+  font-size: 3.8rem;
 }
 .skills {
   width: 45%;
@@ -307,7 +337,7 @@ body {
   justify-content: space-between;
 }
 .skills > h3 {
-  font-size: 6vw;
+  font-size: 6rem;
   margin-bottom: 40px;
 }
 .skillContainer {
@@ -347,14 +377,16 @@ body {
 .image2 img {
   border-radius: 10px;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .aboutHeading {
-  margin: 0 5%;
+  margin: 0 2%;
   width: 55%;
 }
 .aboutHeading h2 {
   font-weight: 100;
-  font-size: 2vw;
+  font-size: clamp(2vw, 3vw, 3vw);
 }
 .descriptionContaainer {
   margin-top: 50px;
@@ -362,13 +394,14 @@ body {
   display: flex;
 }
 .descriptionContaainer .aboutleft {
-  width: 20%;
+  width: 10rem;
+  font-size: 0.8rem;
 }
 .descriptionContaainer .aboutDescription {
-  width: 80%;
-  margin-right: 20%;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  width: 100%;
+  margin-right: clamp(1vw, 5vw, 5vw);
+  font-size: clamp(1rem, 1rem, 1.2rem);
+  line-height: clamp(1vw, 1.8vw, 2vw);
 }
 .descriptionContaainer .aboutDescription p {
   margin-bottom: 20px;
@@ -393,14 +426,15 @@ body {
 .form form {
   color: white;
   background-color: rgba(255, 255, 255, 0.033);
-  width: 35vw;
+  width: 40vw;
   border-radius: 20px;
   outline: 0.1px solid gray;
   padding: 30px 0;
   margin: 40px;
 }
 .form form input,
-.form form textarea {
+.form form textarea,
+.form button {
   border: 0.1px solid gray;
   padding: 10px;
   font-size: 1.5rem;
@@ -417,7 +451,7 @@ body {
   margin: 30px;
 }
 .form h2 {
-    text-align: center;
+  text-align: center;
   font-size: 7vw;
   margin: 0 25%;
   /* margin: 30px; */
@@ -426,6 +460,13 @@ body {
   height: 60px;
   margin-bottom: 40px;
   width: 80%;
+}
+.form button {
+  margin-top: 40px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background-color: #fff;
+  color: black;
 }
 
 /* footer */
