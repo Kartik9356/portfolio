@@ -6,6 +6,13 @@
 
   cursor: url("/assets/Wcurser.png"), pointer;
 }
+a{
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+html {
+  scroll-behavior: smooth;
+}
 .flex {
   align-items: center;
   justify-content: flex-start;
@@ -191,7 +198,7 @@ body {
   width: 60%;
   /* margin: 50px 40% 0px 30px; */
   /* margin-right: clamp(10px,3vw,5vw); */
-  line-height: clamp(25px, 3vw, 3vw);
+  line-height: clamp(25px, 2.5vw, 3vw);
 }
 
 .options {
@@ -245,7 +252,7 @@ body {
 /* selected works */
 .works {
   padding: 30px;
-  padding-top: clamp(5vw, 10vw, 10vw);
+  padding-top: 15vw;
   color: #e5e7eb;
   background-color: black;
 }

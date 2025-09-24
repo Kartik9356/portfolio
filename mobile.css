@@ -1,0 +1,216 @@
+@media screen and (max-width: 700px) {
+  .right {
+    display: flex;
+    flex-direction: column;
+    /* gap: 0; */
+  }
+  .navbar .left span {
+    margin: 5px;
+  }
+
+  .main {
+    position: relative;
+    padding: 20px;
+    margin-top: 10vh;
+  }
+  .name {
+    line-height: 3.3rem;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  .arrow {
+    display: none;
+  }
+  .contactText span {
+    font-size: 1rem;
+    /* margin: 0;padding: 0; */
+    line-height: normal;
+    display: block;
+    width: 85%;
+    margin: 14px 5px;
+  }
+  .contactText {
+    width: 100%;
+    margin: 0;
+  }
+  .mainContent {
+    flex-direction: column;
+  }
+  .contact {
+    margin-left: 5px;
+    padding: 12px 20px;
+  }
+  .image {
+    margin: 15px 0 0 5px;
+    height: 10rem;
+    width: 8rem;
+  }
+  .date {
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+  }
+  .date span {
+    font-size: 1rem;
+    text-align: right;
+    margin-bottom: 4px;
+  }
+  .date h2 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .mainContent {
+    height: 50%;
+  }
+  .whatIDo .services h2 {
+    font-size: 3rem;
+    font-size: 900;
+  }
+  .services p {
+    margin: 30px;
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .fullStack h2 {
+    font-size: 2rem;
+    line-height: normal;
+  }
+  .fullStack .right {
+    width: 100%;
+    margin-top: 0px;
+    font-size: 2rem;
+  }
+  .fullStack .left {
+    margin-top: 25px;
+    width: 10%;
+    font-size: 2rem;
+  }
+  .frontend {
+    top: 170px;
+  }
+  .optimization {
+    top: 250px;
+  }
+
+  .fullStack .right > p {
+    width: 110%;
+    position: relative;
+    left: -66px;
+  }
+  .options {
+    width: 120%;
+    position: relative;
+    left: -66px;
+  }
+  .selectedWork h2 {
+    font-size: 3.5rem;
+  }
+  .selectedWork p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin: 40px 25% 0 0%;
+  }
+  .zero {
+    display: none;
+  }
+  .count {
+    display: none;
+  }
+  .project {
+    width: 100%;
+    margin: auto;
+  }
+  .projectBox {
+    display: flex;
+    margin: auto;
+  }
+  .projectContainer {
+    height: 45vh;
+    width: 100%;
+    margin: 0;
+  }
+  .divproject {
+    width: 100%;
+  }
+
+  .metadata {
+    margin: 15px 0 0 0;
+  }
+  .metadata h4 {
+    font-size: 1.4rem;
+  }
+  .metadata span {
+    /* line-height: .1rem; */
+    font-size: 0.8rem;
+    margin-bottom: 22px;
+    display: block;
+  }
+
+  .skill {
+    padding-top: 30px;
+    flex-direction: column-reverse;
+  }
+  .skills{
+    margin-bottom: 43px;
+  }
+
+  .skill h3 {
+    display: none;
+  }
+  .skills > h3 {
+    display: block;
+    font-size: 2.5rem;
+    margin-top: 2px;
+  }
+  .skill h2 {
+    font-size: 2.5rem;
+  }
+  .about{
+    flex-direction: column;
+  }
+  .image2{
+    width: 100%;
+  }
+  .aboutHeading{
+    width: 100%;
+  }
+  .aboutHeading h2{
+    /* width: 100%; */
+    font-weight: 800;
+    margin-top: 30px;
+    font-size: 1.1rem;
+  }
+  .descriptionContaainer .aboutleft{
+    margin: 20px 0;
+  }
+  .descriptionContaainer .aboutDescription p{
+    line-height: 1.4rem;
+  }
+  .form h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  .form form input{
+    height: 35px;
+  }
+  .form h3{
+    font-size: 1.4rem;
+  }
+  .form form input ,.form form textarea{
+    font-size: 1rem;
+  }
+  .form button{
+    font-size: 1.2rem;
+  }
+  footer h3{
+    font-size: 1.2rem;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+  .time h3{
+    font-size: 1.3rem;
+  }
+}
