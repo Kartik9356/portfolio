@@ -34,3 +34,8 @@
     width: 80%;
   }
 }
+
+.skillContainer ul li:hover{
+    opacity: 1;
+    color: white;
+}

@@ -6,9 +6,9 @@
 
   cursor: url("/assets/Wcurser.png"), pointer;
 }
-a{
-    text-decoration: none;
-    color: rgb(40, 40, 40);
+a {
+  text-decoration: none;
+  color: rgb(40, 40, 40);
 }
 html {
   scroll-behavior: smooth;
@@ -303,22 +303,40 @@ body {
 .project {
   display: flex;
   height: 100%;
-  width: 75vw;
+  /* width: 75vw; */
   /* width: max-content; */
   /* flex-direction: ; */
   margin-bottom: 40px;
 }
 .projectContainer {
-  height: clamp(50vw, 60vw, 70vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: clamp(50vw, 60vw, 70vw); */
   margin-left: 20%;
-  width: 85%;
+  width: 78%;
   border-radius: 10px;
   background-size: cover;
   background-image: url(https://w-hotels.marriott.com/wp-content/uploads/2025/08/Punta-Cana-hero-m.jpg);
 }
+.projectContainer video {
+  width: 90%;
+  object-fit: cover;
+  /* margin-left: 5%; */
+  padding: 10px;
+  border-radius: 15px;
+  margin: auto;
+}
+.projectContainer a {
+  display: flex;
+  /* display: ; */
+  align-items: center;
+  justify-content: center;
+}
 
 .metadata {
   margin: 20px 0 0 20%;
+  width: 78%;
 }
 .metadata h4 {
   margin-bottom: 5px;
@@ -518,4 +536,11 @@ footer h3 {
 .time {
   margin: 50px 30px 30px 51%;
   letter-spacing: 2px;
+}
+
+.navbar a:hover{
+  text-decoration:underline ;
+  border: 1px;
+  color: black;
+  opacity: 1;
 }
