@@ -38,3 +38,5 @@ setInterval(() => {
 
   htmltime.innerHTML = `<span>${time}</span> ${day} `;
 }, 1000);
+
+
