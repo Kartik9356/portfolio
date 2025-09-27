@@ -504,7 +504,7 @@ body {
   color: black;
   border: 2px solid black;
   padding: 10px 20px;
-  cursor: url("/portfolio/assets/Wpointer.png"), pointer;
+  cursor: url("/assets/Wpointer.png"), pointer;
   transition: all 0.3s ease;
 }
 
