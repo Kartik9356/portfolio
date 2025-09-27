@@ -73,6 +73,18 @@ gsap.from(".descriptionContaainer", {
     scrub: 1,
   },
 });
+gsap.from(".emailAndMono", {
+  position: "relative",
+  opacity: 0,
+  top: 100,
+  duration: 0.01,
+  scrollTrigger: {
+    end: "top 80%",
+    trigger: ".emailAndMono",
+    scroller: "body",
+    scrub: 1,
+  },
+});
 
 gsap.from(".form h2 span", {
   position: "relative",

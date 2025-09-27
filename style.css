@@ -4,7 +4,7 @@
   font-family: sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
     Noto Color Emoji;
 
-  cursor: url("/assets/Wcurser.png"),pointer;
+  cursor: url("/assets/Wcurser.png"), pointer;
 }
 a {
   text-decoration: none;
@@ -585,5 +585,10 @@ footer h3 {
 }
 
 footer p a:hover {
-  text-decoration:underline
+  text-decoration: underline;
+}
+
+.emailAndMono {
+  opacity: .7;
+  font-size: clamp(1rem,1rem,1.2rem);
 }
